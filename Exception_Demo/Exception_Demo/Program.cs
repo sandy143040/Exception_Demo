@@ -10,8 +10,12 @@ namespace Exception_Demo
     {
         static void Main(string[] args)
         {
-            HandleException handleException = new HandleException();
-            handleException.Display();
+            //HandleException handleException = new HandleException();
+            //handleException.Display();
+            DivideByZero_Exception divideByZero_Exception = new DivideByZero_Exception();
+            divideByZero_Exception.Custom();
+
+            Console.ReadLine();
         }
     }
 }
